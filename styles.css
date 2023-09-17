@@ -1,0 +1,68 @@
+body {
+    background-color: thistle;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 80vh;
+    width: 70vb;
+    float: left;
+    margin-top: 9vh;
+    margin-left: 20vh;
+    background-color: #e3e3e3d5;
+}
+
+.grid-container {
+    display: grid;
+    border: 1px solid black;
+    height: 80vh;
+    width: 80vh;
+    float: right;
+    margin-top: 9vh;
+    margin-right: 20vh;
+}
+
+.grid-item {
+    background-color: black;
+}
+
+#colour-selector {
+    border: 1px solid black;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    background-color: slateblue;
+}
+
+#reset-button {
+    border: 1px solid black;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    background-color: slateblue;
+}
+
+#change-grid-size {
+    border: 1px solid black;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    background-color: slateblue;
+}
