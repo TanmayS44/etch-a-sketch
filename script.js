@@ -30,7 +30,6 @@ document.addEventListener("mouseup", () => {
 });
 
 const gridBoxes = document.querySelectorAll(".btn");
-
 gridBoxes.forEach(setPenColour);
 
 function setPenColour (currentValue) {
@@ -53,7 +52,6 @@ resetButton.addEventListener("click", () => {
     });
 });
 
-// -----------------------------------------
 const gridChangeButton = document.getElementById("change-grid-size");
 gridChangeButton.addEventListener("click", () => {
     gridSize = prompt("Enter grid side X (Grid will be X * X units)");
@@ -68,7 +66,6 @@ gridChangeButton.addEventListener("click", () => {
     createGrid(gridSize * gridSize);
 
     // Reattach event listeners to the new grid items
-
     const gridBoxes = document.querySelectorAll(".btn");
     gridBoxes.forEach(setPenColour);
 
